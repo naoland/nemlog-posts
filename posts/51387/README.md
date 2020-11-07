@@ -1,6 +1,11 @@
--   [naokits さんの nemlog 記事とプロフィール](https://nemlog.nem.social/profile/5648)
--   [簡単プログラミング！XEM の現在価格を表示しよう](./posts/51387/)
--   [sample](./index.html)
+---
+Date: 2020/11/08
+Title: 記事を書こう
+---
+
+-   [nemlog 記事とプロフィール](https://nemlog.nem.social/profile/5648)
+-   [サンプルコード index.html](./index.html)
+-   [Home に戻る](README.md)
 
 # 簡単プログラミング！XEM の現在価格を表示しよう
 
