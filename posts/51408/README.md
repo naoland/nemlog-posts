@@ -1,8 +1,6 @@
-投稿済み: [簡単プログラミング！BTC の複数取引所の現在価格を表示しよう](https://nemlog.nem.social/blog/51408)
-タイトル: 簡単プログラミング！BTC の複数取引所の現在価格を表示しよう
-サンプルコード: [index.html](./index.html)
-
----
+-   [nemlog 記事とプロフィール](https://nemlog.nem.social/profile/51408)
+-   [サンプルコード index.html](./index.html)
+-   [Home に戻る](/README.md)
 
 # 簡単プログラミング！BTC の複数取引所の現在価格を表示しよう
 
