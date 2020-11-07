@@ -166,12 +166,10 @@ p.s. 少しでもためになったと思われましたら、投げ銭お願い
 
 関連リンク
 
-https://zaif-api-document.readthedocs.io/ja/latest/PublicAPI.html#id22
-http://e-words.jp/w/API.html
-
-https://www.sejuku.net/blog/7087
-
-http://www.tohoho-web.com/ex/json.html
-https://developer.mozilla.org/ja/docs/Web/HTTP/Status
-http://e-words.jp/w/%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA.html
-https://github.com/ccxt/ccxt
+-   https://zaif-api-document.readthedocs.io/ja/latest/PublicAPI.html#id22
+-   http://e-words.jp/w/API.html
+-   https://www.sejuku.net/blog/7087
+-   http://www.tohoho-web.com/ex/json.html
+-   https://developer.mozilla.org/ja/docs/Web/HTTP/Status
+-   http://e-words.jp/w/%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA.html
+-   https://github.com/ccxt/ccxt
