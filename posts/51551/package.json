@@ -1,0 +1,12 @@
+{
+  "name": "51551",
+  "version": "1.0.0",
+  "description": "-   [nemlog 記事とプロフィール](https://nemlog.nem.social/profile/51408) -   [サンプルコード index.html](./index.html) -   [Home に戻る](/README.md)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
