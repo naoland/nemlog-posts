@@ -1,7 +1,7 @@
 # nemlog 投稿記事
 
 nemlog に投稿したプログラミング関連の記事を管理するリポジトリです。
-記事とサンプルコードは `post/nemlog記事番号` というフォルダに入っています。
+記事とサンプルコードは `post/nemlog/記事番号` というフォルダに入っています。
 
 ## nemlog に投稿済み記事
 
@@ -16,6 +16,7 @@ nemlog に投稿したプログラミング関連の記事を管理するリポ�
 ## Links
 
 -   [nemlog 記事とプロフィール](https://nemlog.nem.social/profile/51408)
+-   [Node.js 日本語版](https://nodejs.org/ja/)
 
 ## その他
 
