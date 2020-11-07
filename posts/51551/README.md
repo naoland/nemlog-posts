@@ -16,111 +16,9 @@
 
 プログラミングコード全体としては、次のようになります。
 
-```html
-<!DOCTYPE html>
-<html lang="ja">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <script
-            type="text/javascript"
-            src="https://cdn.jsdelivr.net/npm/ccxt@1.37.14/dist/ccxt.browser.js"
-        ></script>
-        <title>BTC現在価格</title>
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                // スタート直後にアラートを表示し、OKボタンをクリックすると、ティッカー情報を取得します。
-                alert(
-                    '複数の取引所から、BTCの現在価格を取得します。10秒間内に取得できないとタイムアウトエラーが発生します。'
-                );
-
-                const proxy = 'https://cors-anywhere.herokuapp.com/'; // CORS対策（CORSについては奥がそのうち別途説明する予定）。
-                const zaif = new ccxt.zaif({ proxy: proxy }); // ZaifのAPIにアクセスする準備。
-                const bitflyer = new ccxt.bitflyer({ proxy: proxy }); // BitflyerのAPIにアクセスする準備。
-                const bitbank = new ccxt.bitbank({ proxy: proxy }); // BitbankのAPIにアクセスする準備。
-                const symbol = 'BTC/JPY'; // 通貨ペア。
-
-                zaif.fetchTicker(symbol) // 通貨ペアのティッカー情報を取得します。
-                    .then((ticker) => {
-                        // ティッカー情報が正常に取得できた場合。
-                        const text = [
-                            JSON.stringify(ticker['close']),
-                            'JPY',
-                            'Zaif',
-                        ]; // 現在価格を取り出します。
-                        document.getElementById(
-                            'content_zaif'
-                        ).innerHTML = text.join(' '); // 表示内容をセットします。
-                    })
-                    .catch((e) => {
-                        // エラーが発生した場合。
-                        const text = [e.constructor.name, e.message];
-                        document.getElementById(
-                            'content_zaif'
-                        ).innerHTML = text.join(' ');
-                    });
-
-                bitflyer
-                    .fetchTicker(symbol) // 通貨ペアのティッカー情報を取得します。
-                    .then((ticker) => {
-                        // ティッカー情報が正常に取得できた場合。
-                        const text = [
-                            JSON.stringify(ticker['close']),
-                            'JPY',
-                            'Bitflyer',
-                        ]; // 現在価格を取り出します。
-                        document.getElementById(
-                            'content_bf'
-                        ).innerHTML = text.join(' '); // 表示内容をセットします。
-                    })
-                    .catch((e) => {
-                        // エラーが発生した場合。
-                        const text = [e.constructor.name, e.message];
-                        document.getElementById(
-                            'content_bf'
-                        ).innerHTML = text.join(' ');
-                    });
-
-                bitbank
-                    .fetchTicker(symbol) // 通貨ペアのティッカー情報を取得します。
-                    .then((ticker) => {
-                        // ティッカー情報が正常に取得できた場合。
-                        const text = [
-                            JSON.stringify(ticker['close']),
-                            'JPY',
-                            'BitBank',
-                        ]; // 現在価格を取り出します。
-                        document.getElementById(
-                            'content_bb'
-                        ).innerHTML = text.join(' '); // 表示内容をセットします。
-                    })
-                    .catch((e) => {
-                        // エラーが発生した場合。
-                        const text = [e.constructor.name, e.message];
-                        document.getElementById(
-                            'content_bb'
-                        ).innerHTML = text.join(' ');
-                    });
-            });
-        </script>
-    </head>
-    <body>
-        <h2>BTC/JPY 現在価格</h2>
-        <!-- 現在価格を取得したら、ここに表示します。 -->
-        <div id="content_zaif">Zaifから取得中...</div>
-        <div id="content_bf">Bitflyerから取得中...</div>
-        <div id="content_bb">BitBankから取得中...</div>
-    </body>
-</html>
-```
-
-変更点は通貨ペアが「XEM/JPY」から「BTC/JPY」になったこと、ティッカー情報を取得する取引所が 3 つに増えたこと、取得した現在価格を表示する箇所が 3 つに増えたことです。
 
 CCXT というライブラリを使用していることは前回お伝えしましたが、このライブラリの最大の特徴は何といっても対応している取引所の多さです。CoinCheck にも対応しているので、ぜひコードを書き替えてみてください。
 
-変更の仕方はなんとなくわかると思います。
-
-質問などある場合は、コメント欄でも DM でも結構ですのでお送りください。
 
 本プログラムを動かしてみるとわかりますが、Zaif -> Bitflyer -> BitBank という順序で必ず取得＆表示されていません。ティッカー情報を早く取得した順で表示しているのです。この 3 つの組み合わせでは、BitBank がだいたい一番早く表示されるようですね。
 
@@ -128,8 +26,3 @@ CCXT というライブラリを使用していることは前回お伝えしま
 
 次からは、Node.js を使って同じように、最新価格を取得して表示するプログラムの書き方などなどを紹介したいと思います。非同期処理についても触れていきます。
 
-さて、本日はこんなところでしょうか。。
-
-湿度が下がると、飛沫の拡散距離が 2 倍に到達することもあるらしいので、コロナの感染拡大が怖いですね。
-
-湿度が上がるような工夫をしましょう！
