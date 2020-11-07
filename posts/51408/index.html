@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/ccxt@1.37.14/dist/ccxt.browser.js"
+    ></script>
+    <title>BTC現在価格</title>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // スタート直後にアラートを表示し、OKボタンをクリックすると、ティッカー情報を取得します。
+        alert(
+          "複数の取引所から、BTCの現在価格を取得します。10秒間内に取得できないとタイムアウトエラーが発生します。"
+        );
+
+        const proxy = "https://cors-anywhere.herokuapp.com/"; // CORS対策（CORSについては奥がそのうち別途説明する予定）。
+        const zaif = new ccxt.zaif({ proxy: proxy }); // ZaifのAPIにアクセスする準備。
+        const bitflyer = new ccxt.bitflyer({ proxy: proxy }); // BitflyerのAPIにアクセスする準備。
+        const bitbank = new ccxt.bitbank({ proxy: proxy }); // BitbankのAPIにアクセスする準備。
+        const symbol = "BTC/JPY"; // 通貨ペア。
+
+        zaif
+          .fetchTicker(symbol) // 通貨ペアのティッカー情報を取得します。
+          .then((ticker) => {
+            // ティッカー情報が正常に取得できた場合。
+            const text = [JSON.stringify(ticker["close"]), "JPY", "Zaif"]; // 現在価格を取り出します。
+            document.getElementById("content_zaif").innerHTML = text.join(" "); // 表示内容をセットします。
+          })
+          .catch((e) => {
+            // エラーが発生した場合。
+            const text = [e.constructor.name, e.message];
+            document.getElementById("content_zaif").innerHTML = text.join(" ");
+          });
+
+        bitflyer
+          .fetchTicker(symbol) // 通貨ペアのティッカー情報を取得します。
+          .then((ticker) => {
+            // ティッカー情報が正常に取得できた場合。
+            const text = [JSON.stringify(ticker["close"]), "JPY", "Bitflyer"]; // 現在価格を取り出します。
+            document.getElementById("content_bf").innerHTML = text.join(" "); // 表示内容をセットします。
+          })
+          .catch((e) => {
+            // エラーが発生した場合。
+            const text = [e.constructor.name, e.message];
+            document.getElementById("content_bf").innerHTML = text.join(" ");
+          });
+
+        bitbank
+          .fetchTicker(symbol) // 通貨ペアのティッカー情報を取得します。
+          .then((ticker) => {
+            // ティッカー情報が正常に取得できた場合。
+            const text = [JSON.stringify(ticker["close"]), "JPY", "BitBank"]; // 現在価格を取り出します。
+            document.getElementById("content_bb").innerHTML = text.join(" "); // 表示内容をセットします。
+          })
+          .catch((e) => {
+            // エラーが発生した場合。
+            const text = [e.constructor.name, e.message];
+            document.getElementById("content_bb").innerHTML = text.join(" ");
+          });
+      });
+    </script>
+  </head>
+  <body>
+    <h2>BTC/JPY 現在価格</h2>
+    <!-- 現在価格を取得したら、ここに表示します。 -->
+    <div id="content_zaif">Zaifから取得中...</div>
+    <div id="content_bf">Bitflyerから取得中...</div>
+    <div id="content_bb">BitBankから取得中...</div>
+  </body>
+</html>
