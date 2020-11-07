@@ -1,5 +1,6 @@
 -   [naokits さんの nemlog 記事とプロフィール](https://nemlog.nem.social/profile/5648)
 -   [簡単プログラミング！XEM の現在価格を表示しよう](./posts/51387/)
+-   [sample](./index.html)
 
 # 簡単プログラミング！XEM の現在価格を表示しよう
 
@@ -89,6 +90,8 @@ JSON 形式で取得したティッカー情報の中から、最終価格を取
 
 上記のコードを任意の場所に ticker.html などと保存し、ブラウザで実行すると、次のような結果が表示されるはずです。
 
+![実行結果](./1.png)
+
 ときどき、
 
 RequestTimeout zaif GET https://cors-anywhere.herokuapp.com/https://api.zaif.jp/api/1/currency_pairs/all request timed out (10000 ms)
@@ -99,14 +102,18 @@ RequestTimeout zaif GET https://cors-anywhere.herokuapp.com/https://api.zaif.jp/
 
 .catch() で囲まれた箇所はエラーが発生した場合の処理内容で、エラー内容をそのまま表示するようにしています。
 
-```html
-zaif .fetchTicker(symbol) // 通貨ペアのティッカー情報を取得します。
-.then((ticker) => { // ティッカー情報が正常に取得できた場合。 const text =
-[JSON.stringify(ticker["close"]), "JPY"]; // 現在価格を取り出します。
-document.getElementById("content").innerHTML = text.join(" "); //
-表示内容をセットします。 }) .catch((e) => { // エラーが発生した場合。 const text
-= [e.constructor.name, e.message]; document.getElementById("content").innerHTML
-= text.join(" "); });
+```javascript
+zaif.fetchTicker(symbol) // 通貨ペアのティッカー情報を取得します。
+    .then((ticker) => {
+        // ティッカー情報が正常に取得できた場合。
+        const text = [JSON.stringify(ticker['close']), 'JPY']; // 現在価格を取り出します。
+        document.getElementById('content').innerHTML = text.join(' '); // 表示内容をセットします。
+    })
+    .catch((e) => {
+        // エラーが発生した場合。
+        const text = [e.constructor.name, e.message];
+        document.getElementById('content').innerHTML = text.join(' ');
+    });
 ```
 
 たったこれだけの記述で済んでしまうには理由があります。次の個所で、Zaif の REST API に簡単にアクセスできるライブラリを読み込んでいるからです。
