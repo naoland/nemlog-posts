@@ -1,8 +1,10 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/naoland/nemlog-posts)
+
 <!-- prettier-ignore -->
 # nemlog投稿記事
 
 nemlogに投稿したプログラミング関連の記事を管理するリポジトリです。
-記事とサンプルコードは`post/nemlog/記事番号`というフォルダーに入っています。
+記事とサンプルコードは`posts/記事番号`というフォルダーに入っています。
 
 ## nemlogに投稿済み記事
 
@@ -28,3 +30,4 @@ nemlogに投稿したプログラミング関連の記事を管理するリポ�
 ## その他
 
 気に入っていただけたら、右上のスターボタンをポチっとお願いします！
+
