@@ -13,5 +13,8 @@
     "nem"
   ],
   "author": "naoland",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ccxt": "^1.38.13"
+  }
 }
