@@ -1,4 +1,4 @@
--   [nemlog 記事とプロフィール](https://nemlog.nem.social/profile/51408)
+-   [nemlog 記事とプロフィール](https://nemlog.nem.social/profile/51551)
 -   [サンプルコード index.html](./index.js)
 -   [Home に戻る](/README.md)
 
@@ -13,6 +13,13 @@
 
 3つの取引所（Zaif、Bitflyer、BitBank）からBTC/JPY通貨ペアのティッカー情報を取得し、それぞれの現在価格を次のスクリーンショット画像のように表示します。
 
+![実行結果](./images/1.png)
+
+```html
+
+```
+
+
 
 
 CCXTというライブラリを使用していることは前回お伝えしましたが、このライブラリの最大の特徴は何といっても対応している取引所の多さです。CoinCheckにも対応しているので、ぜひコードを書き替えてみてください。
@@ -22,3 +29,18 @@ CCXTというライブラリを使用していることは前回お伝えしま�
 
 非同期処理
 
+```javascript
+'use strict';
+const ccxt = require('ccxt');
+
+(async function () {
+    try {
+        const zaif = new ccxt.zaif(); // zaif apiの機能を使えるようにします
+        const pair = 'XEM/JPY';
+        const ticker = await zaif.fetchTicker(pair);
+        console.log(`XEM 現在価格: ${ticker['last']} JPY`);
+    } catch (e) {
+        console.log(e.message);
+    }
+})();
+```
