@@ -10,8 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/naoland/nemlog-posts.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "nemlog"
+  ],
+  "author": "naoland",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/naoland/nemlog-posts/issues"
