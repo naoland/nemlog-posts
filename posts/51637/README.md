@@ -1,26 +1,10 @@
 # 開発環境を準備しよう #2 Gitpodを使ってみよう
 
-過去記事リスト
-
-簡単プログラミング！XEMの現在価格を表示しよう
-https://nemlog.nem.social/blog/51387
-
-簡単プログラミング！BTCの複数取引所の現在価格を表示しよう
-https://nemlog.nem.social/blog/51408
-
-プログラミング関連記事とサンプルコードを閲覧、ダウンロードできる場所を用意しました。
-https://nemlog.nem.social/blog/51549
-
-開発環境を構築しよう #1 GitHubアカウント作成
-https://nemlog.nem.social/blog_edit/51589
-
-開発環境を準備しよう #2 Gitpodアカウント作成
-https://nemlog.nem.social/blog/51600
+## はじめに
 
 みなさん、こんにちは。 お元気でしょうか？
 
 私の方はぎっくり腰になったり、両目とも感染症になったりと散々でした。健康には気をつけたいですね。
-
 
 さて、前回の記事ではGitpodのアカウント作成と、どんな感じで使うのかの雰囲気を感じていただきました。
 
@@ -35,15 +19,15 @@ GitpodはGitHubのリポジトリ内のコードを編集したり、プログ�
 GitpodはGitHubにリポジトリを作ることができませんので、たとえば、私が公開しているリポジトリだったり、その他のリポジトリを利用することになります。
 もちろん、ご自身でGitHubにリポジトリを作成し、Gitpodから利用することが可能です。
 
+## Gitpodの設定関連
 
-
-まず、こちらにアクセスしてください。 まだGitpodのアカウントを作成していない人は過去記事を参考にアカウントを作成してください。
+まず、こちらにアクセスしてください。 まだGitpodのアカウントを作成していない方は過去記事を参考にアカウントを作成してください。
 
 https://github.com/naoland/nemlog-posts
 
 ![Gitpodボタン](./images/1.png)
 
-クロームにGitpodの拡張機能をインストール済みであれば、「Gitpod」というボタンが表示されているはずです。拡張機能をインストールしていない場合は、リンク情報を参考にしてインストールしてください。
+クロームにGitpodの拡張機能をインストール済みであれば、「Gitpod」というボタンが表示されているはずです。拡張機能をインストールしていない場合は、関連リンクを参考にしてインストールしてください。
 
 「Gitpod」ボタンをクリックしてください。ワークスペースが読み込まれ、利用可能な状態になります。
 
@@ -69,7 +53,7 @@ https://github.com/naoland/nemlog-posts
 
 1. 15日間ほったらかしにして、利用しなかった場合は自動的にワークスペースが削除されます。削除されても作り直せばよいので「Dissmiss」ボタンをクリックしておきましょう。
 2. ワークスペースをクリップし、最上位に表示されます。
-3. このボタンをクリックして鍵マークを外すと、他の人に自分のワークスペースを見せることができます。 私の記事の中では使用しません。
+3. このボタンをクリックして鍵マークを外すと、他の人に自分のワークスペースを見せることができます。 基本的に使わなくて良いと思います。
 4. ワークスペースを削除します。ワークスペースを作り直したい、不要になったので削除したい場合にクリックしてください。
 5. ワークスペースに関連するメニューを表示します。当面の間使う予定がないので説明を割愛します。
 
@@ -79,22 +63,40 @@ https://github.com/naoland/nemlog-posts
 
 https://gitpod.io/workspaces/
 
-ワークスペースの説明
+## ワークスペースの説明
 
 次のような画面が表示されていると思います。Gitpodではワークスペース（workspace）という単位で作業場所が管理されます。
 
+## まとめ
 
-## Links
+今回はGitpodの設定に関する説明と、Gitpodのワークスペースについて触れました。
+今後の簡単で便利なプログラミングシリーズの記事は、Gitpodを使用することを前提にしていますので、ご興味がある方はご自身でもGitpodについて調べてみてはいかがでしょうか。
 
-[Theia](https://theia-ide.org/)
+ご自身のPCに開発環境を構築する方法はいろんなパターンがあり、結構大変ですが、Gitpodを使えばほぼすべての開発環境がWEBブラウザのみで整います。
+開発者ではない方が、どのように開発環境構築を準備してもらえば良いのかずいぶんと悩みましたが、とりあえずはGitpodで進めていきます。
+ただ、将来的にはご自身のPCに開発環境を構築する方法もお伝えしたいと考えています。
 
-Cloud Shell  |  Google Cloud
-https://cloud.google.com/shell?hl=ja
+また、今回はスクリーンショット画像だけではわかりにくい状況を、GIF動画にしてみました。多少でもわかりやすくなったかご意見をお聞かせくださるとうれしいです。
 
-Visual Studio Codeの代替を狙う統合開発環境「Eclipse Theia 1.0」リリース。VS Codeの拡張機能を利用可能、デスクトップ版とWebブラウザ版に両対応  
-bit.ly/38OqPCy
+なお、今後ご紹介する
+
+Node.js（JavaScript）または、Python
+
+## 関連リンク
+
+- [Gitpod - Dev environments built for the cloud](http://gitpod.io/)
+- [Theia](https://theia-ide.org/)
+- [Cloud Shell  |  Google Cloud](https://cloud.google.com/shell?hl=ja)  
+- [Visual Studio Codeの代替を狙う統合開発環境「Eclipse Theia 1.0」リリース。VS Codeの拡張機能を利用可能、デスクトップ版とWebブラウザ版に両対応](bit.ly/38OqPCy) 
+- [Gitpod用のクローム機能拡張](https://chrome.google.com/webstore/search/gitpod?hl=ja) 
 
 
-Gitpod用のクローム機能拡張  
-https://chrome.google.com/webstore/search/gitpod?hl=ja
+
+## 過去記事リスト
+
+- [簡単プログラミング！XEMの現在価格を表示しよう](https://nemlog.nem.social/blog/51387)
+- [簡単プログラミング！BTCの複数取引所の現在価格を表示しよう](https://nemlog.nem.social/blog/51408)
+- [プログラミング関連記事とサンプルコードを閲覧、ダウンロードできる場所を用意しました。](https://nemlog.nem.social/blog/51549)
+- [開発環境を構築しよう #1 GitHubアカウント作成](https://nemlog.nem.social/blog_edit/51589)
+- [開発環境を準備しよう #2 Gitpodアカウント作成](https://nemlog.nem.social/blog/51600)
 
