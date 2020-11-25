@@ -27,22 +27,20 @@ nemlogに投稿した記事すべてがあるわけではありませんので�
 
 [リポジトリ内の記事一覧](/posts/README.md)
 
-## 投稿予定記事
+## 今後の予定
 
 - 簡単プログラミング！XEMの現在価格を表示しよう（Node.js編）
   -   Node.jsというサーバーサイドJavaScriptでXEMの現在価格を表示してみます。ボットと呼ばれる形式のプログラムは、Node.jsを使う場合が多いですので、ボットを作ってみたい方はぜひ、Node.jsを使ったプログラミングを勉強してみましょう。
-- GitHubの使い方
-  - リポジトリ名のつけ方などにも触れます。
-- [Flutter](https://github.com/flutter/flutter)で簡単なモバイルアプリを作ってみよう
 - その携帯用の電話番号は実在しますか？存在チェックをしてみよう
 - 簡単プログラミング！XEMの現在価格を表示しよう（Python編）
-- [Rust](https://www.rust-lang.org/ja/)言語に挑戦！
 - 天気予報の情報を取得して表示する。
 - タバコを10年間吸わなかったらいくら節約できるか計算する。
 - 操作の自動化
 - 動画での説明
+- [Rust](https://www.rust-lang.org/ja/)言語に挑戦！
+- [Flutter](https://github.com/flutter/flutter)で簡単なモバイルアプリを作ってみよう
 
-## Links
+## 関連リンク
 
 -   [nemlog記事とプロフィール](https://nemlog.nem.social/profile/51408)
 -   [Node.js 日本語版](https://nodejs.org/ja/)
@@ -51,7 +49,7 @@ nemlogに投稿した記事すべてがあるわけではありませんので�
 
 ## その他
 
-### Gitpdにインストールした方がよい機能拡張
+### Gitpodにインストールした方がよい機能拡張
 
 - Material Thema
     - この機能拡張をインストールすると、Material Iconという機能拡張もインストールされ、アイコンが見やすくなります。
