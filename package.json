@@ -1,0 +1,20 @@
+{
+  "name": "nemlog-posts",
+  "version": "1.0.0",
+  "description": "[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/naoland/nemlog-posts)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naoland/nemlog-posts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naoland/nemlog-posts/issues"
+  },
+  "homepage": "https://github.com/naoland/nemlog-posts#readme"
+}
