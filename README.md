@@ -3,14 +3,22 @@
 <!-- prettier-ignore -->
 # nemlog投稿記事
 
-nemlogに投稿したプログラミング関連の記事を管理するリポジトリです。
-記事とサンプルコードは `posts/記事番号` というフォルダーに入っています。
-nemlogに投稿した記事すべてがあるわけではありませんので、リポジトリ内の記事一覧をご確認ください。
+nemlogに投稿したプログラミング関連の記事を管理しているメインのリポジトリです。
+記事とサンプルコードは `nemlog-post-記事番号`（例:nemlog-post-51387）というリポジトリに入っています。
 
-[リポジトリ内の記事一覧](/posts/README.md)
+nemlogに投稿した記事すべてがあるわけではありませんのでご承知ください。
 
 
-## nemlogに投稿済み記事
+### リポジトリで管理している記事
+以下のリンクをクリックすると、該当記事のリポジトリに移動します。
+
+- [簡単プログラミング！XEMの現在価格を表示しよう](https://github.com/naoland/nemlog-post-51387)
+- [簡単プログラミング！BTC の複数取引所の現在価格を表示しよう](https://github.com/naoland/nemlog-post-51408)
+- [開発環境を準備しよう #3 Gitpodを使ってみよう](https://github.com/naoland/nemlog-post-51637)
+- [簡単プログラミング！XEM の現在価格を表示しよう（Node.js 編）](https://github.com/naoland/nemlog-post-51551)
+
+## nemlogに投稿済みの記事
+以下のリンクをクリックすると、nemlog上の記事に移動します。
 
 - [簡単プログラミング！XEM の現在価格を表示しよう](https://nemlog.nem.social/blog/51387)
 - [簡単プログラミング！BTC の複数取引所の現在価格を表示しよう](https://nemlog.nem.social/blog/51408)
@@ -19,13 +27,7 @@ nemlogに投稿した記事すべてがあるわけではありませんので�
 - [開発環境を準備しよう #2 Gitpodアカウント作成](https://nemlog.nem.social/blog/51600)
 - [開発環境を準備しよう #3 Gitpodを使ってみよう](https://nemlog.nem.social/blog/51637)
 - [簡単プログラミング！XEM の現在価格を表示しよう（Node.js 編）](https://nemlog.nem.social/blog/51551)
-- 簡単プログラミング！BTCの複数取引所の現在価格を表示しよう（Node.js 編）
-
-### リポジトリ内の記事
-
-nemlogに投稿した記事すべてがあるわけではありませんので、リポジトリ内の記事一覧をご確認ください。
-
-[リポジトリ内の記事一覧](/posts/README.md)
+- 簡単プログラミング！BTCの複数取引所の現在価格を表示しよう（Node.js編）
 
 ## 今後の予定
 
@@ -42,10 +44,9 @@ nemlogに投稿した記事すべてがあるわけではありませんので�
 
 ## 関連リンク
 
--   [nemlog記事とプロフィール](https://nemlog.nem.social/profile/51408)
--   [Node.js 日本語版](https://nodejs.org/ja/)
--   [記事とサンプルコードの一括ダウンロード](https://github.com/naoland/nemlog-posts/archive/main.zip)
-  -   クリックすると、zip形式で即座にダウンロードが開始されます。
+- [nemlog記事とプロフィール](https://nemlog.nem.social/profile/51408)
+- [Node.js 日本語版](https://nodejs.org/ja/)
+- [Gitpod - Dev environments built for the cloud](https://gitpod.io/)
 
 ## その他
 
