@@ -1,6 +1,3 @@
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/naoland/nemlog-posts)
-
-<!-- prettier-ignore -->
 # nemlog投稿記事
 
 nemlogに投稿したプログラミング関連の記事を管理しているメインのリポジトリです。
