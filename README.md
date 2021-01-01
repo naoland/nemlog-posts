@@ -35,7 +35,7 @@ nemlogに投稿したプログラミング関連の記事を管理している�
 
 ## 今後の予定
 
-- LINE経由で通知を送る
+- LINE経由で通知を送る（python, go, node.js）
 - その携帯用の電話番号は実在しますか？存在チェックをしてみよう
 - 天気予報の情報を取得して表示する。
 - タバコを10年間吸わなかったらいくら節約できるか計算する。
@@ -50,3 +50,4 @@ nemlogに投稿したプログラミング関連の記事を管理している�
 - [Node.js 日本語版](https://nodejs.org/ja/)
 - [Gitpod - Dev environments built for the cloud](https://gitpod.io/)
 
+[![Donate with NEM](https://en.cryptobadges.io/badge/big/NC64UF-OWRO6A-VMWFV2-BFX2NT-6W2GUR-K2EOX6-FFMZ)](https://en.cryptobadges.io/donate/NC64UF-OWRO6A-VMWFV2-BFX2NT-6W2GUR-K2EOX6-FFMZ)
