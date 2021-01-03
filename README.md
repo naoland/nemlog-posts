@@ -17,6 +17,7 @@ nemlogに投稿したプログラミング関連の記事を管理している�
 - [簡単プログラミング！BTCの複数取引所の現在価格を表示しよう（Node.js編）](https://github.com/naoland/nemlog-post-51780)
 - [簡単プログラミング！複数の通貨の現在価格を表示しよう（Python編）](https://github.com/naoland/nemlog-53456)
 - [簡単プログラミング！ LINEに通知できる準備をしよう](https://github.com/naoland/nemlog-53471)
+- [簡単プログラミング！XEMの現在価格をLINEに通知しよう（Python編）の投稿](https://github.com/naoland/nemlog-53456)
 
 
 ## nemlogに投稿済みの記事
@@ -31,6 +32,7 @@ nemlogに投稿したプログラミング関連の記事を管理している�
 - [簡単プログラミング！XEM の現在価格を表示しよう（Node.js 編）](https://nemlog.nem.social/blog/51551)
 - [簡単プログラミング！BTCの複数取引所の現在価格を表示しよう（Node.js編）](https://nemlog.nem.social/blog/51780)
 - [簡単プログラミング！ LINEに通知できる準備をしよう](https://nemlog.nem.social/blog/53471)
+- [簡単プログラミング！XEMの現在価格をLINEに通知しよう（Python編）](https://nemlog.nem.social/blog/53456)
 
 
 ## 今後の予定
@@ -49,5 +51,7 @@ nemlogに投稿したプログラミング関連の記事を管理している�
 - [nemlog記事とプロフィール](https://nemlog.nem.social/profile/51408)
 - [Node.js 日本語版](https://nodejs.org/ja/)
 - [Gitpod - Dev environments built for the cloud](https://gitpod.io/)
+
+## その他
 
 [![Donate with NEM](https://en.cryptobadges.io/badge/big/NC64UF-OWRO6A-VMWFV2-BFX2NT-6W2GUR-K2EOX6-FFMZ)](https://en.cryptobadges.io/donate/NC64UF-OWRO6A-VMWFV2-BFX2NT-6W2GUR-K2EOX6-FFMZ)
