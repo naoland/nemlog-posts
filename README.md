@@ -16,8 +16,9 @@ nemlogに投稿したプログラミング関連の記事を管理している�
 - [簡単プログラミング！XEM の現在価格を表示しよう（Node.js 編）](https://github.com/naoland/nemlog-post-51551)
 - [簡単プログラミング！BTCの複数取引所の現在価格を表示しよう（Node.js編）](https://github.com/naoland/nemlog-post-51780)
 - [簡単プログラミング！複数の通貨の現在価格を表示しよう（Python編）](https://github.com/naoland/nemlog-53456)
-- [簡単プログラミング！ LINEに通知できる準備をしよう](https://github.com/naoland/nemlog-53471)
-- [簡単プログラミング！XEMの現在価格をLINEに通知しよう（Python編）の投稿](https://github.com/naoland/nemlog-53456)
+- [簡単プログラミング！LINEに通知できる準備をしよう](https://github.com/naoland/nemlog-53471)
+- [簡単プログラミング！XEMの現在価格をLINEに通知しよう（Python編）](https://github.com/naoland/nemlog-53456)
+- [簡単プログラミング！その電話番号が実在するかチェックしてみよう](https://github.com/naoland/nemlog-54017) github
 
 
 ## nemlogに投稿済みの記事
@@ -33,14 +34,14 @@ nemlogに投稿したプログラミング関連の記事を管理している�
 - [簡単プログラミング！BTCの複数取引所の現在価格を表示しよう（Node.js編）](https://nemlog.nem.social/blog/51780)
 - [簡単プログラミング！ LINEに通知できる準備をしよう](https://nemlog.nem.social/blog/53471)
 - [簡単プログラミング！XEMの現在価格をLINEに通知しよう（Python編）](https://nemlog.nem.social/blog/53456)
+- [簡単プログラミング！その電話番号が実在するかチェックしてみよう](https://nemlog.nem.social/blog/54017) nemlog
 
 
 ## 今後の予定
 
+- 簡単な取引ボット
 - LINE経由で通知を送る（python, go, node.js）
-- その携帯用の電話番号は実在しますか？存在チェックをしてみよう
 - 天気予報の情報を取得して表示する。
-- タバコを10年間吸わなかったらいくら節約できるか計算する。
 - 自動化
 - PWA
 - [Rust](https://www.rust-lang.org/ja/)言語に挑戦！
@@ -49,7 +50,6 @@ nemlogに投稿したプログラミング関連の記事を管理している�
 ## 関連リンク
 
 - [nemlog記事とプロフィール](https://nemlog.nem.social/profile/51408)
-- [Node.js 日本語版](https://nodejs.org/ja/)
 - [Gitpod - Dev environments built for the cloud](https://gitpod.io/)
 
 ## その他
