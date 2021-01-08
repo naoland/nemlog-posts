@@ -18,8 +18,9 @@ nemlogに投稿したプログラミング関連の記事を管理している�
 - [簡単プログラミング！複数の通貨の現在価格を表示しよう（Python編）](https://github.com/naoland/nemlog-53456)
 - [簡単プログラミング！LINEに通知できる準備をしよう](https://github.com/naoland/nemlog-53471)
 - [簡単プログラミング！XEMの現在価格をLINEに通知しよう（Python編）](https://github.com/naoland/nemlog-53456)
-- [簡単プログラミング！その電話番号が実在するかチェックしてみよう](https://github.com/naoland/nemlog-54017) github
-- [簡単プログラミング！XEMの現在価格をLINEに通知しよう（Go編）](https://github.com/naoland/nemlog-54061) github
+- [簡単プログラミング！その電話番号が実在するかチェックしてみよう](https://github.com/naoland/nemlog-54017)
+- [簡単プログラミング！XEMの現在価格をLINEに通知しよう（Go編）](https://github.com/naoland/nemlog-54061)
+- [簡単プログラミング！LINEに自分で好きなメッセージを送ってみよう（exeファイルあり）](https://github.com/naoland/nemlog-54152)
 
 ## nemlogに投稿済みの記事
 以下のリンクをクリックすると、nemlog上の記事に移動します。
@@ -34,8 +35,9 @@ nemlogに投稿したプログラミング関連の記事を管理している�
 - [簡単プログラミング！BTCの複数取引所の現在価格を表示しよう（Node.js編）](https://nemlog.nem.social/blog/51780)
 - [簡単プログラミング！ LINEに通知できる準備をしよう](https://nemlog.nem.social/blog/53471)
 - [簡単プログラミング！XEMの現在価格をLINEに通知しよう（Python編）](https://nemlog.nem.social/blog/53456)
-- [簡単プログラミング！その電話番号が実在するかチェックしてみよう](https://nemlog.nem.social/blog/54017) nemlog
-- [簡単プログラミング！XEMの現在価格をLINEに通知しよう（Go編）](https://nemlog.nem.social/blog/54061) nemlog
+- [簡単プログラミング！その電話番号が実在するかチェックしてみよう](https://nemlog.nem.social/blog/54017)
+- [簡単プログラミング！XEMの現在価格をLINEに通知しよう（Go編）](https://nemlog.nem.social/blog/54061)
+- [簡単プログラミング！LINEに自分で好きなメッセージを送ってみよう（exeファイルあり）](https://nemlog.nem.social/blog/54152)
 
 
 ## 今後の予定
