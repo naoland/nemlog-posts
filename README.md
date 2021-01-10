@@ -42,6 +42,7 @@ nemlogに投稿したプログラミング関連の記事を管理している�
 - [ノーコードでアプリ開発！Glideのアカウント作成](https://nemlog.nem.social/blog/54213)
 - [ノーコードでアプリ開発！Bubbleのアカウント作成と最初のレッスン](https://nemlog.nem.social/blog/54235)
 - [ノーコードでアプリ開発！Figmaのアカウント作成](https://nemlog.nem.social/blog/54236)
+- [ノーコードでアプリ開発！簡単なタスクリストアプリを作ってみる](https://nemlog.nem.social/blog/54271)
 
 ## 今後の予定
 
