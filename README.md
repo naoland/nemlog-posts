@@ -38,7 +38,10 @@ nemlogに投稿したプログラミング関連の記事を管理している�
 - [簡単プログラミング！その電話番号が実在するかチェックしてみよう](https://nemlog.nem.social/blog/54017)
 - [簡単プログラミング！XEMの現在価格をLINEに通知しよう（Go編）](https://nemlog.nem.social/blog/54061)
 - [簡単プログラミング！LINEに自分で好きなメッセージを送ってみよう（exeファイルあり）](https://nemlog.nem.social/blog/54152)
-
+- [新企画のおしらせ](https://nemlog.nem.social/blog/54212)
+- [ノーコードでアプリ開発！Glideのアカウント作成](https://nemlog.nem.social/blog/54213)
+- [ノーコードでアプリ開発！Bubbleのアカウント作成と最初のレッスン](https://nemlog.nem.social/blog/54235)
+- [ノーコードでアプリ開発！Figmaのアカウント作成](https://nemlog.nem.social/blog/54236)
 
 ## 今後の予定
 
