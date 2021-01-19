@@ -47,6 +47,7 @@ nemlogに投稿したプログラミング関連の記事を管理している�
 - [ノーコードでアプリ開発！Figmaのアカウント作成](https://nemlog.nem.social/blog/54236)
 - [ノーコードでアプリ開発！簡単なタスクリストアプリを作ってみる](https://nemlog.nem.social/blog/54271)
 - [簡単プログラミング！ 日英単語をサクッと調べられるツールを作ってみよう](https://nemlog.nem.social/blog/54388)
+- [ノーコードでアプリ開発！簡単なアンケート結果をチャート表示してみる（...がしかし）](https://nemlog.nem.social/blog/54605)
 
 ## 今後の予定
 
