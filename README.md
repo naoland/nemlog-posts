@@ -50,6 +50,8 @@ nemlogに投稿したプログラミング関連の記事を管理している�
 - [ノーコードでアプリ開発！簡単なアンケート結果をチャート表示してみる（...がしかし）](https://nemlog.nem.social/blog/54605)
 - [ノーコードでアプリ開発！よくある質問の部分だけなんちゃってアプリ化（Glide最終）](https://nemlog.nem.social/blog/54634)
 - [ブラウザのタブを量産する癖をなくしたいｗ](https://nemlog.nem.social/blog/54690)
+- [Tips! ブラウザのタブを開きすぎないようにするコツ](https://nemlog.nem.social/blog/54708)
+- [NIS1の活用について](https://nemlog.nem.social/blog/54730)
 
 ## 今後の予定
 
