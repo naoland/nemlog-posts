@@ -24,6 +24,7 @@ nemlogに投稿したプログラミング関連の記事を管理している�
 - [簡単プログラミング！XEMの現在価格をLINEに通知しよう（Go編）](https://github.com/naoland/nemlog-54061)
 - [簡単プログラミング！LINEに自分で好きなメッセージを送ってみよう（exeファイルあり）](https://github.com/naoland/nemlog-54152)
 - [簡単プログラミング！ 日英単語をサクッと調べられるツールを作ってみよう](https://github.com/naoland/nemlog-54388)
+- [【TIPS#1】 アンドロイドスマホにLinuxとPythonを導入してみよう](/tips/1/README.md)
 
 ## nemlogに投稿済みの記事
 以下のリンクをクリックすると、nemlog上の記事に移動します。
@@ -53,6 +54,7 @@ nemlogに投稿したプログラミング関連の記事を管理している�
 - [Tips! ブラウザのタブを開きすぎないようにするコツ](https://nemlog.nem.social/blog/54708)
 - [NEM（NIS1）の活用について](https://nemlog.nem.social/blog/54730)
 - [簡単レシピ！ 焼きバナナ](https://nemlog.nem.social/blog/54828)
+- [【TIPS#1】 アンドロイドスマホにLinuxとPythonを導入してみよう](https://nemlog.nem.social/blog/54849)
 
 ## 今後の予定
 
