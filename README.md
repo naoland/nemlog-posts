@@ -52,6 +52,7 @@ nemlogに投稿したプログラミング関連の記事を管理している�
 - [ブラウザのタブを量産する癖をなくしたいｗ](https://nemlog.nem.social/blog/54690)
 - [Tips! ブラウザのタブを開きすぎないようにするコツ](https://nemlog.nem.social/blog/54708)
 - [NEM（NIS1）の活用について](https://nemlog.nem.social/blog/54730)
+- [簡単レシピ！ 焼きバナナ](https://nemlog.nem.social/blog/54828)
 
 ## 今後の予定
 
