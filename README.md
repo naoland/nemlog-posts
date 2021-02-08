@@ -57,6 +57,9 @@ nemlogに投稿したプログラミング関連の記事を管理している�
 - [簡単レシピ！ 焼きバナナ](https://nemlog.nem.social/blog/54828)
 - [【TIPS#1】 アンドロイドスマホにLinuxとPythonを導入してみよう](https://nemlog.nem.social/blog/54849)
 - [【TIPS#2】 アンドロイドスマホ上のLinuxにターミナルで接続してみよう](https://nemlog.nem.social/blog/54919)
+- [【TIPS#3】 アンドロイドスマホ上のLinuxにVSCodeで接続してみよう](https://nemlog.nem.social/blog/55035)
+- [AndroidスマホにTermuxから人気のGo言語をインストール](https://nemlog.nem.social/blog/55410)
+- [AndroidスマホにTermuxからRust言語をインストール](https://nemlog.nem.social/blog/55459)
 
 ## 今後の予定
 
