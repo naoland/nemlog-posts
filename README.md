@@ -60,6 +60,7 @@ nemlogに投稿したプログラミング関連の記事を管理している�
 - [【TIPS#3】 アンドロイドスマホ上のLinuxにVSCodeで接続してみよう](https://nemlog.nem.social/blog/55035)
 - [AndroidスマホにTermuxから人気のGo言語をインストール](https://nemlog.nem.social/blog/55410)
 - [AndroidスマホにTermuxからRust言語をインストール](https://nemlog.nem.social/blog/55459)
+- [【TIPS#4】Termuxが無反応になるのを防ぐ方法](https://nemlog.nem.social/blog/55578)
 
 ## 今後の予定
 
