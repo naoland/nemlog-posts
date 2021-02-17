@@ -27,6 +27,7 @@ nemlogに投稿したプログラミング関連の記事を管理している�
 - [【TIPS#1】 アンドロイドスマホにLinuxとPythonを導入してみよう](/tips/1/README.md)
 - [【TIPS#2】 アンドロイドスマホ上のLinuxにターミナルで接続してみよう](/tips/2/README.md)
 - [【TIPS#7】 TermuxでWEBアプリを作ってアクセスしてみる（Go）](https://github.com/naoland/nemlog-55832)
+- [フローチャートをプログラムで書くことのメリット（その2）](https://github.com/naoland/nemlog-55579)
 
 
 ## nemlogに投稿済みの記事
@@ -64,6 +65,7 @@ nemlogに投稿したプログラミング関連の記事を管理している�
 - [AndroidスマホにTermuxからRust言語をインストール](https://nemlog.nem.social/blog/55459)
 - [【TIPS#4】Termuxが無反応になるのを防ぐ方法](https://nemlog.nem.social/blog/55578)
 - [【TIPS#7】 TermuxでWEBアプリを作ってアクセスしてみる（Go言語）](https://nemlog.nem.social/blog/55832)
+- [フローチャートをプログラムで書くことのメリット（その2）](https://nemlog.nem.social/blog/55579)
 
 ## 今後の予定
 
